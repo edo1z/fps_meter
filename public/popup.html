@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>FPS Meter</title>
+  <style>
+    body {
+      width: 250px;
+      background-color: black;
+      color: white;
+      padding: 5px;
+    }
+
+    #fpsDisplay,
+    #elapsedTime,
+    #averageFps,
+    #maxFps,
+    #minFps {
+      margin-bottom: 10px;
+    }
+
+    #fpsDisplay {
+      font-size:25px;
+      color: #0f0;
+      font-weight: blod;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    th {
+      width: 130px;
+      padding: 5px;
+      background: #333;
+    }
+    td {
+      text-align: right;
+      padding: 5px;
+      background: #111;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="fpsDisplay">FPS: --</div>
+  <table>
+    <tr>
+      <th>Elapsed Time</th>
+      <td id="elapsedTime">--</td>
+    </tr>
+    <tr>
+      <th>Avg FPS (last 60s)</th>
+      <td id="averageFps">--</td>
+    </tr>
+    <tr>
+      <th>Max FPS</th>
+      <td id="maxFps">--</td>
+    </tr>
+    <tr>
+      <th>Min FPS</th>
+      <td id="minFps">--</td>
+    </tr>
+  </table>
+  <script src="popup.js"></script>
+</body>
+
+</html>

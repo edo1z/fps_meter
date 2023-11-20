@@ -1,0 +1,11 @@
+{
+  "name": "fps_meter",
+  "version": "1.0.0",
+  "description": "Measures and displays FPS",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "edo1z",
+  "license": "MIT",
+  "devDependencies": {}
+}
